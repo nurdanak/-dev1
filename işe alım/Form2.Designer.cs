@@ -5,7 +5,7 @@
 **             NESNEYE DAYALI PROGRAMLAMA DERSİ
 **                  2019-2020 BAHAR DÖNEMİ
 **             
-**             ÖDEV NUMARASI......: Ödev 1
+**             ÖDEV NUMARASI......: Ödev 2
 **             ÖĞRENCİ ADI........: Nurdan AKINCI
 **             ÖĞRENCİ NUMARASI...: b191200044
 **         DERSİN ALINDIĞI GRUP...: A
@@ -56,6 +56,7 @@ namespace işe_alım
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -193,11 +194,25 @@ namespace işe_alım
             this.label8.TabIndex = 38;
             this.label8.Text = "©Nurdan Akıncı";
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(153)))), ((int)(((byte)(193)))));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.ForeColor = System.Drawing.SystemColors.Window;
+            this.button7.Location = new System.Drawing.Point(1272, 686);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(98, 42);
+            this.button7.TabIndex = 39;
+            this.button7.Text = "MESAJ AT";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1449, 741);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -222,18 +237,19 @@ namespace işe_alım
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label8;
+        public System.Windows.Forms.ListBox listBox1;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.ListBox listBox2;
+        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Button button4;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Button button5;
+        public System.Windows.Forms.Button button6;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Button button7;
     }
 }

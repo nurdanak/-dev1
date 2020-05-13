@@ -5,7 +5,7 @@
 **             NESNEYE DAYALI PROGRAMLAMA DERSİ
 **                  2019-2020 BAHAR DÖNEMİ
 **             
-**             ÖDEV NUMARASI......: Ödev 1
+**             ÖDEV NUMARASI......: Ödev 2
 **             ÖĞRENCİ ADI........: Nurdan AKINCI
 **             ÖĞRENCİ NUMARASI...: b191200044
 **         DERSİN ALINDIĞI GRUP...: A
@@ -33,5 +33,7 @@ namespace işe_alım
             Application.Run(new Form1());
         }
 
+       
+        
     }
 }

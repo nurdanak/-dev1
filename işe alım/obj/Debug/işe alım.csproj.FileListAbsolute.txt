@@ -37,3 +37,34 @@ C:\Users\Jarvi\Desktop\NDP Ödevim - İşe Alım\işe alım\bin\Debug\işe alım
 C:\Users\Jarvi\Desktop\NDP Ödevim - İşe Alım\işe alım\bin\Debug\işe alım.exe
 C:\Users\Jarvi\Desktop\NDP Ödevim - İşe Alım\işe alım\bin\Debug\işe alım.pdb
 C:\Users\Jarvi\Desktop\NDP Ödevim - İşe Alım\işe alım\obj\Debug\işe_alım.Properties.Resources.resources
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\bin\Debug\işe alım.exe.config
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\bin\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\bin\Debug\işe alım.pdb
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe alım.csprojAssemblyReference.cache
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe_alım.Form1.resources
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe_alım.Form2.resources
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe_alım.Properties.Resources.resources
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe alım.csproj.GenerateResource.cache
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV1-B191200044\işe alım\obj\Debug\işe alım.pdb
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe alım.csprojAssemblyReference.cache
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe_alım.Form1.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe_alım.Form2.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe_alım.Properties.Resources.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe alım.csproj.GenerateResource.cache
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\obj\Debug\işe alım.pdb
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\bin\Debug\işe alım.exe.config
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\bin\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044\işe alım\bin\Debug\işe alım.pdb
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\bin\Debug\işe alım.exe.config
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\bin\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\bin\Debug\işe alım.pdb
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe alım.csprojAssemblyReference.cache
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe_alım.Form1.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe_alım.Form2.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe_alım.Form3.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe_alım.Properties.Resources.resources
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe alım.csproj.GenerateResource.cache
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe alım.exe
+C:\Users\Jarvi\Desktop\ÖDEV2-B191200044 - Kopya\işe alım\obj\Debug\işe alım.pdb

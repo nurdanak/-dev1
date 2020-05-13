@@ -5,7 +5,7 @@
 **             NESNEYE DAYALI PROGRAMLAMA DERSİ
 **                  2019-2020 BAHAR DÖNEMİ
 **             
-**             ÖDEV NUMARASI......: Ödev 1
+**             ÖDEV NUMARASI......: Ödev 2
 **             ÖĞRENCİ ADI........: Nurdan AKINCI
 **             ÖĞRENCİ NUMARASI...: b191200044
 **         DERSİN ALINDIĞI GRUP...: A
@@ -86,6 +86,25 @@ namespace işe_alım
         {
             
             listBox2.Items.Remove(listBox2.SelectedItem);
+           
+        }
+
+        public static int a;
+
+        public static string[] items = new string[100];
+
+        private void button7_Click(object sender, EventArgs e) // mesaj at butonu (form3' ü açar)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
+            //listbox2 deki verileri say
+            a = listBox2.Items.Count;
+            //listbox2 deki verileri yukarıda tanımladığım dizide tutuyorum.
+            for (int i = 0; i < a; i++)
+            {
+                items[i] = Convert.ToString(listBox2.Items[i]);
+
+            }
            
         }
     }

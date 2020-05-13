@@ -5,7 +5,7 @@
 **             NESNEYE DAYALI PROGRAMLAMA DERSİ
 **                  2019-2020 BAHAR DÖNEMİ
 **             
-**             ÖDEV NUMARASI......: Ödev 1
+**             ÖDEV NUMARASI......: Ödev 2
 **             ÖĞRENCİ ADI........: Nurdan AKINCI
 **             ÖĞRENCİ NUMARASI...: b191200044
 **         DERSİN ALINDIĞI GRUP...: A
@@ -35,98 +35,181 @@ namespace işe_alım
         // KAYDET BUTONU:
         private void button1_Click(object sender, EventArgs e)
         {
-            //değişkenleri tanımlama:
-            string tcno = " ", adsoyad = " ", cinsiyet = " ", mezuniyet = " ", diller = " ", uzmanlık = " ";
-            tcno = textBox2.Text;
-            adsoyad = textBox1.Text;
-            //cinsiyet:
-            if(radioButton3.Checked== true)
+           
+            if(radioButton3.Checked== true)//kadın
             {
-                cinsiyet = radioButton3.Text;
-            }
-            else if (radioButton4.Checked == true)
-            {
-                cinsiyet = radioButton4.Text;
-            }
-            //mezuniyet:
-            if(radioButton1.Checked== true)
-            {
-                mezuniyet = radioButton1.Text;
-            }
-            else if (radioButton2.Checked == true)
-            {
-                mezuniyet = radioButton2.Text;
-            }
-            //diller:
-            if (checkBox1.Checked == true)
-            {
-                diller = diller + "," + checkBox1.Text;
+                Kadin yenikadin = new Kadin();
+                yenikadin.Cinsiyet = radioButton3.Text;
+                yenikadin.TcNo = textBox2.Text;
+                yenikadin.AdSoyad = textBox1.Text;
+                /* MEZUNIYET */
+                if (radioButton1.Checked == true)
+                {
+                    yenikadin.Mezuniyet = radioButton1.Text;
+                }
+                else if (radioButton2.Checked == true)
+                {
+                    yenikadin.Mezuniyet = radioButton2.Text;
+                }
+                /* DILLER */
+                if (checkBox1.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox1.Text;
+
+                }
+                if (checkBox2.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox2.Text;
+
+                }
+                if (checkBox3.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox3.Text;
+
+                }
+                if (checkBox4.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox4.Text;
+
+                }
+                if (checkBox5.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox5.Text;
+
+                }
+                if (checkBox6.Checked == true)
+                {
+                    yenikadin.Diller = yenikadin.Diller + "," + checkBox6.Text;
+
+                }
+                yenikadin.Diller = yenikadin.Diller.Substring(1); // diller değişkeninin başındaki virgülü atar.
+
+                /* UZMANLIK */
+                if (checkBox7.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox7.Text;
+
+                }
+                if (checkBox8.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox8.Text;
+
+                }
+                if (checkBox9.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox9.Text;
+
+                }
+                if (checkBox10.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox10.Text;
+
+                }
+                if (checkBox11.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox11.Text;
+
+                }
+                if (checkBox12.Checked == true)
+                {
+                    yenikadin.Uzmanlik = yenikadin.Uzmanlik + "," + checkBox12.Text;
+
+                }
+                yenikadin.Uzmanlik = yenikadin.Uzmanlik.Substring(1); // uzmanlık değişkeninin başındaki virgülü atar.
+
+                //listbox'a verileri aktarma:
+                listBox1.Items.Add("TC NO: " + yenikadin.TcNo + " | " + "ADI SOYADI: " + yenikadin.AdSoyad + " | " + "CİNSİYETİ: " + yenikadin.Cinsiyet + " | " + "DİLLER: " + yenikadin.Diller + " | " + "UZMANLIK: " + yenikadin.Uzmanlik);
 
             }
-            if (checkBox2.Checked == true)
+
+            /* ------------------------------------ */
+
+            else if (radioButton4.Checked == true)//erkek
             {
-                diller = diller + "," + checkBox2.Text;
+                Erkek yenierkek = new Erkek();
+                yenierkek.Cinsiyet = radioButton3.Text;
+                yenierkek.TcNo = textBox2.Text;
+                yenierkek.AdSoyad = textBox1.Text;
+                /* MEZUNIYET */
+                if (radioButton1.Checked == true)
+                {
+                    yenierkek.Mezuniyet = radioButton1.Text;
+                }
+                else if (radioButton2.Checked == true)
+                {
+                    yenierkek.Mezuniyet = radioButton2.Text;
+                }
+                /* DILLER */
+                if (checkBox1.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox1.Text;
+
+                }
+                if (checkBox2.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox2.Text;
+
+                }
+                if (checkBox3.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox3.Text;
+
+                }
+                if (checkBox4.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox4.Text;
+
+                }
+                if (checkBox5.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox5.Text;
+
+                }
+                if (checkBox6.Checked == true)
+                {
+                    yenierkek.Diller = yenierkek.Diller + "," + checkBox6.Text;
+
+                }
+                yenierkek.Diller = yenierkek.Diller.Substring(1); // diller değişkeninin başındaki virgülü atar.
+
+                /* UZMANLIK */
+                if (checkBox7.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox7.Text;
+
+                }
+                if (checkBox8.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox8.Text;
+
+                }
+                if (checkBox9.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox9.Text;
+
+                }
+                if (checkBox10.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox10.Text;
+
+                }
+                if (checkBox11.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox11.Text;
+
+                }
+                if (checkBox12.Checked == true)
+                {
+                    yenierkek.Uzmanlik = yenierkek.Uzmanlik + "," + checkBox12.Text;
+
+                }
+                yenierkek.Uzmanlik = yenierkek.Uzmanlik.Substring(1); // uzmanlık değişkeninin başındaki virgülü atar.
+
+                //listbox'a verileri aktarma:
+                listBox1.Items.Add("TC NO: " + yenierkek.TcNo + " | " + "ADI SOYADI: " + yenierkek.AdSoyad + " | " + "CİNSİYETİ: " + yenierkek.Cinsiyet + " | " + "DİLLER: " + yenierkek.Diller + " | " + "UZMANLIK: " + yenierkek.Uzmanlik);
 
             }
-            if (checkBox3.Checked == true)
-            {
-                diller = diller + "," + checkBox3.Text;
-
-            }
-            if (checkBox4.Checked == true)
-            {
-                diller = diller + "," + checkBox4.Text;
-
-            }
-            if (checkBox5.Checked == true)
-            {
-                diller = diller + "," + checkBox5.Text;
-
-            }
-            if (checkBox6.Checked == true)
-            {
-                diller = diller + "," + checkBox6.Text;
-
-            }
-            diller = diller.Substring(2); // diller değişkeninin başındaki virgülü atar.
-
-            //uzmanlık:
-            if (checkBox7.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox7.Text;
-
-            }
-            if (checkBox8.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox8.Text;
-
-            }
-            if (checkBox9.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox9.Text;
-
-            }
-            if (checkBox10.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox10.Text;
-
-            }
-            if (checkBox11.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox11.Text;
-
-            }
-            if (checkBox12.Checked == true)
-            {
-                uzmanlık = uzmanlık + "," + checkBox12.Text;
-
-            }
-            uzmanlık = uzmanlık.Substring(2); // uzmanlık değişkeninin başındaki virgülü atar.
-
-            //listbox'a verileri aktarma:
-
-            listBox1.Items.Add("TC NO: " + tcno + " | " + "ADI SOYADI: " + adsoyad + " | " + "CİNSİYETİ: " + cinsiyet + " | " + "DİLLER: " + diller + " | " + "UZMANLIK: " + uzmanlık);
-
+            
         }
 
         // SİL BUTONU:
